@@ -25,11 +25,11 @@ angular
         controller: 'Nvd3Ctrl',
         controllerAs: 'ndv3'
       })
-      //.when('/about', {
-      //  templateUrl: 'views/about.html',
-      //  controller: 'AboutCtrl',
-      //  controllerAs: 'about'
-      //})
+      .when('/about', {
+        templateUrl: 'views/about.html',
+        controller: 'AboutCtrl',
+        controllerAs: 'about'
+      })
       .otherwise({
         redirectTo: '/'
       });

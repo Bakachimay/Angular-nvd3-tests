@@ -1,6 +1,9 @@
 ﻿<div ng-app="testAngularNvd3App">
-    <div ng-controller="Nvd3Ctrl">
+    <div>
         <!--on-ready doesn't work ???-->
         <nvd3 options="options" data="data" on-ready="myCallback"></nvd3>
+    </div>
+    <div>
+        <nvd3 options="options2" data="data2" on-ready="myCallback"></nvd3>
     </div>
 </div>

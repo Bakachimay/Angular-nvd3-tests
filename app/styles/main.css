@@ -1,7 +1,3 @@
-text{
-  fill: #000000;
-}
-
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -86,7 +82,8 @@ body {
   }
 
   .nv-axislabel {
-      font-size: large;
-      color: blue;
+      font-size : 20px !important;
+      fill: blue;
   }
+
 }
